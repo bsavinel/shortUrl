@@ -1,0 +1,159 @@
+# ===== Global Ignores =====
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Instrumented libs (jscoverage/JSCover)
+lib-cov
+
+# Coverage directories
+coverage
+*.lcov
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Snowpack dependency directory
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional caches
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv files
+.env.local
+.env
+
+# Parcel cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build output
+.nuxt
+dist
+
+# Gatsby & vuepress caches
+.cache/
+.vuepress/dist
+.temp
+.cache
+
+# Docusaurus cache
+.docusaurus
+
+# Serverless, FuseBox, DynamoDB Local, TernJS, VSCode testing
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ===== /server Folder Ignores =====
+# (Paths below are relative to the repository root)
+
+# Compiled output and builds inside /server
+/server/dist/
+/server/build/
+
+# Server-specific dependencies and logs
+/server/node_modules/
+/server/logs
+/server/*.log
+/server/npm-debug.log*
+/server/pnpm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
+/server/lerna-debug.log*
+
+# OS files
+/server/.DS_Store
+
+# Tests and coverage in /server
+/server/coverage/
+/server/.nyc_output
+
+# IDEs and editor settings for /server
+/server/.idea/
+/server/.project
+/server/.classpath
+/server/c9/
+/server/*.launch
+/server/.settings/
+/server/*.sublime-workspace
+
+# VSCode settings in /server
+/server/.vscode/*
+!/server/.vscode/settings.json
+!/server/.vscode/tasks.json
+!/server/.vscode/launch.json
+!/server/.vscode/extensions.json
+
+# Temp directories in /server
+/server/.temp/
+/server/.tmp/
+
+# Runtime data in /server
+/server/pids
+/server/*.pid
+/server/*.seed
+/server/*.pid.lock
+
+# Diagnostic reports in /server
+/server/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
